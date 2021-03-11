@@ -1,0 +1,60 @@
+[debug] [2021-03-11T10:22:30.773Z] ----------------------------------------------------------------------
+[debug] [2021-03-11T10:22:30.775Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2021-03-11T10:22:30.775Z] CLI Version:   9.6.0
+[debug] [2021-03-11T10:22:30.775Z] Platform:      darwin
+[debug] [2021-03-11T10:22:30.775Z] Node Version:  v12.19.0
+[debug] [2021-03-11T10:22:30.777Z] Time:          Thu Mar 11 2021 16:22:30 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-03-11T10:22:30.777Z] ----------------------------------------------------------------------
+[debug] [2021-03-11T10:22:30.779Z] 
+[debug] [2021-03-11T10:22:30.783Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-11T10:22:30.784Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/nabil/Desktop/My React Apps/final/burger-builder
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-03-11T10:27:28.761Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-03-11T10:27:29.393Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-03-11T10:27:29.394Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project burger-builder-2c44e (burger-builder) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-11T10:29:25.056Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-03-11T10:29:29.696Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-03-11T10:29:29.696Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.3.0","browserURL":"https://www.gstatic.com/firebasejs/8.3.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.3.0/firebase.tgz"},"live":{"version":"8.3","browserURL":"https://www.gstatic.com/firebasejs/live/8.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.3.0/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.3.0/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.3.0/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.3.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.3.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.3.0/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/nabil/Desktop/My React Apps/final/burger-builder 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=487465889&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-03-11T10:30:33.999Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"6bf372316519e185c53f","redirect_uri":"http://localhost:9005","state":"487465889"}
+[debug] [2021-03-11T10:30:34.820Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 11 Mar 2021 10:30:34 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"bec1daf38b4668608c53352b2cac7ea8\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-6832eced.js gist.github.com/socket-worker-6832eced.js","x-github-request-id":"C27A:5834:162D138:1753C82:6049F14A"}
+[debug] [2021-03-11T10:30:34.826Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-03-11T10:30:36.567Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-03-11T10:30:36.567Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"mahbubAnabil","id":66523051,"node_id":"MDQ6VXNlcjY2NTIzMDUx","avatar_url":"https://avatars.githubusercontent.com/u/66523051?v=4","gravatar_id":"","url":"https://api.github.com/users/mahbubAnabil","html_url":"https://github.com/mahbubAnabil","followers_url":"https://api.github.com/users/mahbubAnabil/followers","following_url":"https://api.github.com/users/mahbubAnabil/following{/other_user}","gists_url":"https://api.github.com/users/mahbubAnabil/gists{/gist_id}","starred_url":"https://api.github.com/users/mahbubAnabil/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mahbubAnabil/subscriptions","organizations_url":"https://api.github.com/users/mahbubAnabil/orgs","repos_url":"https://api.github.com/users/mahbubAnabil/repos","events_url":"https://api.github.com/users/mahbubAnabil/events{/privacy}","received_events_url":"https://api.github.com/users/mahbubAnabil/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":12,"public_gists":0,"followers":1,"following":1,"created_at":"2020-06-06T14:23:48Z","updated_at":"2021-03-11T10:29:58Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":11005,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as mahbubAnabil 
+[info] 
